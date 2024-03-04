@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  mysql:
+    image: "mysql:latest"
+    restart: "always"
+    environment:
+      - "MYSQL_ROOT_PASSWORD=your_password"
+      - "MYSQL_DATABASE=kimchi-premium"
+    ports:
+      - "3306:3306"
