@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class UpbitServiceTest {
 
-    private UpbitService upbitService;
+    UpbitService upbitService;
 
     @BeforeEach
     void beforeEach() {
