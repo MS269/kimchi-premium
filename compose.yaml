@@ -6,6 +6,6 @@ services:
     restart: "always"
     environment:
       - "MYSQL_ROOT_PASSWORD=your_password"
-      - "MYSQL_DATABASE=kimchi-premium"
+      - "MYSQL_DATABASE=kimchi_premium"
     ports:
       - "3306:3306"
