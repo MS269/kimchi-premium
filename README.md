@@ -5,7 +5,13 @@
 - IDE: IntelliJ IDEA
 - SDK: Amazon Corretto Version 21
 
-### Docker Compose
+### application.properties
+
+Setup src/main/resources/application.properties
+
+- spring.datasource.password=your_password
+
+### compose.yaml
 
 Setup compose.yaml
 
